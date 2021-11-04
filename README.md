@@ -14,7 +14,7 @@ is error prone and typically is non-repeatable ending up as a unique snowflake.
 To avoid this, many development teams turn to a PaaS service such as Heroku.
 This has limitations and only addresses the final deployment infrastructure.
 
-Prepd aims to address this by providing a 'convention over configruation' approach
+Prepd aims to address this by providing a 'convention over configuration' approach
 to provisioning infrastructure. From local developer machines (vagrant running linux
 on the developer's laptop) to staging and production running a docker swarm cluster.
 
